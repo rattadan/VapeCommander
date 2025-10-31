@@ -1,0 +1,25 @@
+[features]
+seeds = true
+skip-lint = false
+
+[programs.localnet]
+vapecommander_rewards = "FjfxjdGpEFD1Qg4Vz8tdNpQVZh7RLXQZwY1cU79u7zo7"
+
+[programs.devnet]
+vapecommander_rewards = "FjfxjdGpEFD1Qg4Vz8tdNpQVZh7RLXQZwY1cU79u7zo7"
+
+[programs.mainnet]
+vapecommander_rewards = "FjfxjdGpEFD1Qg4Vz8tdNpQVZh7RLXQZwY1cU79u7zo7"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "anchor test"
+
+[toolchain]
+anchor_version = "0.32.1"

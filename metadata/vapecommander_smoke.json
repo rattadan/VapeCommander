@@ -1,0 +1,20 @@
+{
+  "name": "VapeCommander Smoke",
+  "symbol": "SMOKE",
+  "description": "Reward token for VapeCommander: 1 token per operating minute.",
+  "image": "https://vapecommander.duckdns.org/wp-content/uploads/2025/10/V.png",
+  "external_url": "https://vapecommander.duckdns.org/",
+  "attributes": [
+    { "trait_type": "Reward Unit", "value": "Minute" },
+    { "trait_type": "Decimals", "value": 6 }
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://vapecommander.duckdns.org/wp-content/uploads/2025/10/V.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}

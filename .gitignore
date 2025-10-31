@@ -1,0 +1,46 @@
+# Flutter/Dart
+*.dart.js
+*.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/
+
+# Node
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test ledger
+test-ledger/
+
+# Anchor
+.anchor/
+
+# Build directories
+build/

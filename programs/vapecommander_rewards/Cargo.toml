@@ -1,0 +1,25 @@
+[package]
+name = "vapecommander_rewards"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "vapecommander_rewards"
+
+[dependencies]
+anchor-lang = { version = "0.32.1", features = ["init-if-needed"] }
+bytemuck = { version = "1.14", features = ["derive"] }
+anchor-spl = { version = "0.32.1", features = ["token", "associated_token"] }
+
+[features]
+default = []
+client = []
+no-entrypoint = ["client"]
+cpi = []
+no-idl = []
+custom-heap = []
+custom-panic = []
+anchor-debug = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
